@@ -1,5 +1,7 @@
 body{
-    height: 1050px;
+    height: 1020px;
+    width: 480px;
+    margin:0 auto;
 }
 
 body{
@@ -97,8 +99,8 @@ input[type='button']{
 #buy {
     position: fixed;
     bottom: 0px;
-    right: 0px;
-    width: 100%;
+    right: center;
+    width: 480px; 
     box-sizing:border-box;
 
 
