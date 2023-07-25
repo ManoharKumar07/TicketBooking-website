@@ -5,17 +5,37 @@ body{
 }
 
 body{
-    background-color: #e0e0e0;
+    background-color: #c7cacc;
 }
 strong{
     color:#2493df;
 }
 
-header{
-    font-size:20px;
-    letter-spacing:2px;
-    margin-top:10px;
-    margin-bottom:10px;
+h1 {
+    color: #ff0000; /* Red color */
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    /* Add any other styles you want */
+    margin: 0 15; /* Remove any default margins to avoid unwanted spacing */
+    white-space: nowrap; /* Prevent the text from wrapping */
+    overflow: hidden; /* Hide any overflowing content */
+    animation: marquee 10s linear infinite; /* Customize the speed by changing 10s (10 seconds) */
+}
+
+/* The marquee animation */
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.marq{
+    width: 480px;
+    overflow: hidden;
+  
 }
 label{
     font-size:16px;
