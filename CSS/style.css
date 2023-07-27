@@ -1,5 +1,5 @@
 body{
-    height: 1020px;
+    height: 1150px;
     width: 480px;
     margin:0 auto;
 }
@@ -10,6 +10,9 @@ body{
 strong{
     color:#2493df;
 }
+h2{
+    font-size: 30px;
+}
 
 h1 {
     font-size: 35px;
@@ -18,6 +21,10 @@ h1 {
     animation: marquee 10s linear infinite forwards;
     color: rgb(19, 148, 216);
     font-weight: bold;
+    margin: none;
+    padding: none;
+    letter-spacing: 10px;
+
 }
 @keyframes marquee {
     0% {
@@ -31,7 +38,7 @@ h1 {
 .marq{
     width: 480px;
     overflow: hidden;
-  
+    margin:none;
 }
 label{
     font-size:16px;
@@ -115,7 +122,6 @@ input[type='button']{
 #buy {
     position: fixed;
     bottom: 0px;
-    right: center;
     width: 480px; 
     box-sizing:border-box;
 
